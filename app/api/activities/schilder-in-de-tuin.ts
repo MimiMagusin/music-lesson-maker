@@ -1,4 +1,4 @@
-import { Activity } from "@/app/ActivityTypes";
+import { Activity } from "@/app/api/activities/ActivityTypes";
 
 export const schilderInDeTuin: Activity = {
   title: "De Schilder",

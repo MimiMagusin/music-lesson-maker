@@ -42,6 +42,7 @@ export type LearningGoal = {
 
 
 export type Course = {
+  id: string;
   title: string;
   description: string;
   topics: string[];

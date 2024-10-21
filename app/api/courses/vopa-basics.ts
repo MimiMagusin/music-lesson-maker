@@ -1,7 +1,8 @@
-import { Course } from "../../ActivityTypes";
+import { Course } from "../activities/ActivityTypes";
 const ageRange = { minAge: 7, maxAge: 99 };
 
 export const vopaBasics: Course = {
+  id: "vocalpaintinglevel1",
   title: "Vocal Painting - Level 1",
   description:
     "Laat leerlingen al improviserend kennis maken met de basis van de muziektheorie, met behulp van technieken van 'Vocal Painting'",

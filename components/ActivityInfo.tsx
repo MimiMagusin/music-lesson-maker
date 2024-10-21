@@ -1,4 +1,4 @@
-import { ActivityInfo } from "@/app/ActivityTypes";
+import { ActivityInfo } from "@/app/api/activities/ActivityTypes";
 import { Card, CardBody } from "@nextui-org/card";
 
 function AgeGroupText({ minAge, maxAge }: ActivityInfo) {

@@ -7,7 +7,7 @@ import {
   ActivityInfo,
   ActivityMaterial,
   LearningGoal,
-} from "@/app/ActivityTypes";
+} from "@/app/api/activities/ActivityTypes";
 
 export type ActivityProps = {
   title: string;

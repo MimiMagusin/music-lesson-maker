@@ -23,8 +23,9 @@
 //     },
 //   },
 
-import { Activity } from "../../ActivityTypes";
+import { Activity } from "./ActivityTypes";
 import { vopaBasics } from "../courses/vopa-basics";
+
 import { herfstWatHebJeTeKoop } from "./herfst-wat-heb-je-te-koop";
 import { schilderInDeTuin } from "./schilder-in-de-tuin";
 import { herfstWind } from "./herstwind";

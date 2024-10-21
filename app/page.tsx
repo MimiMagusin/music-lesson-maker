@@ -1,6 +1,6 @@
 import { Accordion, AccordionItem } from "@nextui-org/accordion";
 
-import { activities } from "./data/activities/activities";
+import { activities } from "./api/activities/activities";
 
 import Activity, { ActivityProps } from "@/components/Activity";
 import {
@@ -14,7 +14,7 @@ export default function Home() {
       const { title, info, steps, materials, learningGoal } = activity;
 
       return (
-        <div key={`${title}-{index}`}>
+        <div key={`${title}-${index}`} className="flex flex-col gap-12">
           <hr />
           <Activity
             info={info}

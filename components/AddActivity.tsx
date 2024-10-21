@@ -1,4 +1,4 @@
-"use client";
+// "use client";
 import { Divider } from "@nextui-org/divider";
 import { Input } from "@nextui-org/input";
 import "froala-editor/css/froala_style.min.css";
