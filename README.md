@@ -46,6 +46,8 @@ If you are using `pnpm`, you need to add the following code to your `.npmrc` fil
 public-hoist-pattern[]=*@nextui-org/*
 ```
 
+music lesson maker
+
 After modifying the `.npmrc` file, you need to run `pnpm install` again to ensure that the dependencies are installed correctly.
 
 ## License
