@@ -1,9 +1,11 @@
-// import { useRouter } from "next/navigation";
+import { allCourses } from "../../api/courses/allCourses";
 
 export default async function Page({ params }: { params: { slug: string } }) {
-  console.log(params.slug);
-  const data = await fetch(`api/courses/${params.slug}`);
-  console.log(data);
+  const slug = (await params).slug;
+  const course = allCourses.filter((course) => slug === course.id)[0];
+
+  console.log(course);
+  return <div>{course.title} </div>;
   // console.log(data);
   // let posts = await data.json();
 
